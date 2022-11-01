@@ -1,69 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Tutorial</title>
+  <title>HTML Tutorial</title>
 </head>
 <body alink="green" link="blue" vlink="red">
-
-<h1> Hello World! </h1>
-<p> This is the first HTML code </p>
-
-<h2> Heading 2 </h2>
-<h6> Heading 6 </h6>
-
-<p> This is paragraph </p>
-<span> This is span.</span>
-<span> The 'br' tag is used after span to break the line </span>
-<br/>
-<div style="color:blue;">
-The 'div' tag can be used for formatting the tags inside it at once using 'style' and 'classes'␣
-˓→etc.
-<p> This paragraph is inside the 'div' tag </p>
-<span> This span is inside the 'div' tag </span>
-<br/>
-</div>
-<center>
-<h3> Heading 3 is centered</h3>
-<p><span> Centered span inside the paragraph.</span><p>
-</center>
-Two horizontal line is drawn using two 'hr' tag.
-<hr />
-<hr>
-<pre> 'pre' tag preserve the formatting (good for writing codes)
-# Python code
-x = 2
-y = 3
-print(x+y)
-</pre>
-
-<p id='para1'> This is paragraph with id 'para1' </p>
-<p id='para2'> This is paragraph with id 'para2' </p>
-
-<p class="c_blue"> This is paragraph with class 'blue'</p>
-<span class="c_blue"> This is span with class 'blue'</span>
-
-<p style="font-weight:bold; color:red;">Style attribute is used to bold and color</p>
-
-<p class="my_class" id="para_with_class" style="color:green"> Multiple attributes </p>
-
-<!-- border - color, width and height -->
-<table border="1" bordercolor="black" width="450" height="100">
-<caption>Table 1 : Various tags of table</caption>
-<tr bgcolor="red" > <!-- row -->
-<th>Column 1</th> <!-- header -->
-<th>Column 2</th>
-<th>Column 3</th>
-</tr>
-<tr bgcolor="cyan"> <!-- background color -->
-<td>Data 1</td> <!-- data -->
-<td>Data 2</td>
-<td>Data 3</td>
-</tr>
-<tr bgcolor="yellow"> <!-- row -->
-<td colspan="2">New Data 1</td> <!-- column span -->
-<td>New Data 2</td> <!-- data -->
-</tr>
-</table>
+  <h1> Hello World! </h1>
+  <p> This is the first HTML code </p>
+  <h2> Heading 2 </h2>
+  <h6> Heading 6 </h6>
+  <p> This is paragraph </p>
+  <span> This is span.</span>
+  <span> The 'br' tag is used after span to break the line </span>
+  <br/>
+  <div style="color:blue;">
+    The 'div' tag can be used for formatting the tags inside it at once using 'style' and 'classes'␣˓→etc.
+    <p> This paragraph is inside the 'div' tag </p>
+    <span> This span is inside the 'div' tag </span>
+    <br/>
+   </div>
+   <center>
+    <h3> Heading 3 is centered</h3>
+    <p><span> Centered span inside the paragraph.</span><p>
+   </center>
+   Two horizontal line is drawn using two 'hr' tag.
+   <hr />
+   <hr>
+   <pre> 'pre' tag preserve the formatting (good for writing codes)
+     # Python code
+     x = 2
+     y = 3
+     print(x+y)
+   </pre>
+   <p id='para1'> This is paragraph with id 'para1' </p>
+   <p id='para2'> This is paragraph with id 'para2' </p>
+   <p class="c_blue"> This is paragraph with class 'blue'</p>
+   <span class="c_blue"> This is span with class 'blue'</span>
+   <p style="font-weight:bold; color:red;">Style attribute is used to bold and color</p>
+   <p class="my_class" id="para_with_class" style="color:green"> Multiple attributes </p>
+   
+   <!-- border - color, width and height -->
+   <table border="1" bordercolor="black" width="450" height="100">
+      <caption>Table 1 : Various tags of table</caption>
+      <tr bgcolor="red" > <!-- row -->
+         <th>Column 1</th> <!-- header -->
+         <th>Column 2</th>
+         <th>Column 3</th>
+      </tr>
+      <tr bgcolor="cyan"> <!-- background color -->
+          <td>Data 1</td> <!-- data -->
+          <td>Data 2</td>
+          <td>Data 3</td>
+      </tr>
+      <tr bgcolor="yellow"> <!-- row -->
+          <td colspan="2">New Data 1</td> <!-- column span -->
+          <td>New Data 2</td> <!-- data -->
+      </tr>
+   </table>
 <!-- width in % -->
 <table border="1" bordercolor="black" width="80%" height="100">
 <caption> Table 2 : Width is 80%</caption>
